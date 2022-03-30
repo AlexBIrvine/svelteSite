@@ -1,0 +1,9 @@
+- Remove image from blog post once inside
+- Remove last updated being a mandatory category
+- Move this to a github repo
+  - Auto update server when a new .md file is uploaded
+- Change the style
+  - Allow for on the fly style changes
+- Horizontal progress bar at the top of screen
+- Dynamic table of contents for posts, "pinned" to the side of the screen as you scroll
+- 
