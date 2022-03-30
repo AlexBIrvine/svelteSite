@@ -6,4 +6,4 @@
   - Allow for on the fly style changes
 - Horizontal progress bar at the top of screen
 - Dynamic table of contents for posts, "pinned" to the side of the screen as you scroll
-- 
+- Add git integrations? 
