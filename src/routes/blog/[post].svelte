@@ -85,15 +85,3 @@
     </aside>
   {/if}
 </article>
-
-<style>
-  .title {
-    text-align: center;
-    font-size: 3rem;
-    font-weight: bold;
-
-  }
-
-
-
-</style>
