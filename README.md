@@ -1,5 +1,3 @@
 # This is the home page
 
-Testing that the webhook is working.  
-Test again.  
-Test final time?
+If you're reading this, then that means the cronjob is working!
