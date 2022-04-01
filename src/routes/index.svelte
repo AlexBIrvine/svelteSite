@@ -1,22 +1,22 @@
 <script context="module">
 	export const load = async () => {
-		const ReadMeFile = await import('../../README.md');
-		const ReadMe = ReadMeFile.default;
+		const HomePage = await import('../../index.md');
+		const Home = HomePage.default;
 
 		return {
 			props: {
-				ReadMe
+				Home
 			}
 		};
 	};
 </script>
 
 <script>
-	export let ReadMe;
+	export let Home;
 </script>
 
 <svelte:head>
 	<title>6 Pak's Site</title>
 </svelte:head>
 
-<svelte:component this={ReadMe} />
+<svelte:component this={Home} />

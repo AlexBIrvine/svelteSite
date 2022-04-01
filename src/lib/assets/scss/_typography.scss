@@ -9,12 +9,13 @@
 }
 
 h1 {
-  font-size: 2.8rem;
-  margin: 0 0 3rem;
+  // font-size: 2.8rem;
+  // margin: 0 0 3rem;
   position: relative;
   overflow: hidden;
-  padding-bottom: 1rem;
+  // padding-bottom: 1rem;
 
+  // This is the underline for the h1 elements
   &::after {
     content: '';
     height: 0.1em;
@@ -26,36 +27,36 @@ h1 {
   }
 
   @media (min-width: vars.$smMin) {
-    font-size: 3rem;
+    // font-size: 3rem;
   }
 
   @media (min-width: vars.$lgMin) {
-    font-size: 3.2rem;
+    // font-size: 3.2rem;
   }
 }
 
 h2 {
-  font-size: 2.0rem;
+  // font-size: 2.0rem;
   
   @media (min-width: vars.$smMin) {
-    font-size: 2.2rem;
+    // font-size: 2.2rem;
   }
 }
 
 h3 {
-  font-size: 1.8rem;
+  // font-size: 1.8rem;
 }
 
 h4 {
-  font-size: 1.6rem;
+  // font-size: 1.6rem;
 }
 
 h5 {
-  font-size: 1.35rem;
+  // font-size: 1.35rem;
 }
 
 h6 {
-  font-size: 1.1rem;
+  // font-size: 1.1rem;
 }
 
 a {
