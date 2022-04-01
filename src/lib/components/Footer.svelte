@@ -4,6 +4,6 @@
 </script>
 
 <footer>
-  <a href="/api/rss.xml" rel="external"><img src="../../../static/images/rss.png" alt="RSS logo"></a>
+  <a href="/api/rss.xml" rel="external"><img src="/images/rss.png" alt="RSS logo"></a>
   <p>&copy;{new Date().getFullYear()} {siteAuthor}</p>
 </footer>
