@@ -1,21 +1,9 @@
 <script>
-  import MainNav from './MainNav.svelte'
+  // import MainNav from './MainNav.svelte'
   import { siteAuthor } from '$lib/config'
 </script>
 
 <footer>
-  <MainNav />
-
-  <nav>
-    <ul>
-      <li>
-        <a href="/api/rss.xml" rel="external">RSS</a>
-      </li>
-      <li>
-        <a href="/">Home</a>
-      </li>
-    </ul>
-  </nav>
-
+  <a href="/api/rss.xml" rel="external"><img src="../../../static/images/rss.png" alt="RSS logo"></a>
   <p>&copy;{new Date().getFullYear()} {siteAuthor}</p>
 </footer>

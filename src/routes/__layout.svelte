@@ -2,9 +2,9 @@
 <script context="module">
 	export const load = async({ url, fetch }) => {
     /**
-     * This fetch call is not used in this file, but the route won't be pre-rendered 
+     * This fetch call is not used in this file, but the route won't be pre-rendered
      * and routed properly unless it's called inside a `load` function. ¯\_(ツ)_/¯
-     * */ 
+     * */
     const rss = await fetch(`/api/rss.xml`)
 
     return {
@@ -24,7 +24,6 @@
 	import { prefetch } from '$app/navigation'
   import { onMount } from 'svelte'
   import { fade } from 'svelte/transition'
-import Callout from '$lib/components/Callout.svelte';
 
   const transitionIn = { delay: 150, duration: 150 }
   const transitionOut = { duration: 100 }
