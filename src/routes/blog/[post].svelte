@@ -47,21 +47,25 @@
 
 <article class="post">
   <!-- You might want to add an alt frontmatter attribute. If not, leaving alt blank here works, too. -->
-  <img
-    class="cover-image"
-    src="{coverImage}"
-    alt=""
-    style="aspect-ratio: {coverWidth} / {coverHeight};"
-    width={coverWidth}
-    height={coverHeight}
-  />
+  {#if coverImage}
+    <img
+      class="cover-image"
+      src="{coverImage}"
+      alt=""
+      style="aspect-ratio: {coverWidth} / {coverHeight};"
+      width={coverWidth}
+      height={coverHeight}
+    />
+  {/if}
 
   <h1>{ title }</h1>
   
   <div class="meta">
     <b>Published:</b> {date}
-    <br>
-    <b>Updated:</b> {updated}
+    {#if updated}
+      <br>
+      <b>Updated:</b> {updated}
+    {/if}
   </div>
   
   <svelte:component this={PostContent} />
