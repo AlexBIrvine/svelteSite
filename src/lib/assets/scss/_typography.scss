@@ -15,8 +15,8 @@ h1 {
   overflow: hidden;
   // padding-bottom: 1rem;
 
-  // This is the underline for the h1 elements
-  &::after {
+  // This is the underline for the h1 elements, except the title for posts
+  &:not(.title):after {
     content: '';
     height: 0.1em;
     background: var(--accent);

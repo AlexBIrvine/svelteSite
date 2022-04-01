@@ -58,7 +58,7 @@
     />
   {/if}
 
-  <h1>{ title }</h1>
+  <h1 class="title">{ title }</h1>
   
   <div class="meta">
     <b>Published:</b> {date}
@@ -85,3 +85,15 @@
     </aside>
   {/if}
 </article>
+
+<style>
+  .title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+
+  }
+
+
+
+</style>

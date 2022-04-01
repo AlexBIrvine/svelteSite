@@ -161,6 +161,13 @@ header {
 footer {
   background: var(--darker);
   color: var(--paper);
+
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+
   display: flex;
   flex-direction: row-reverse;
   align-items: center;

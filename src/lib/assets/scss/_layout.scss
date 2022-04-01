@@ -26,6 +26,8 @@ img {
   width: 100%;
   max-width: 100%;
   height: auto;
+  box-shadow: 0 10px 25px rgb(0 0 0 / 0.2);
+
 }
 
 .post {
@@ -36,6 +38,7 @@ img {
   .meta {
     font-size: 0.75rem;
     margin-bottom: 4rem;
+    text-align: center;
   }
 
   img + h1 {
