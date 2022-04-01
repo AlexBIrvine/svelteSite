@@ -21,7 +21,7 @@ First and foremost, I will be changing up the style that shipped with the templa
 
 ![Site Look](/images/siteLook.png)
 
-And I hate it! It's bright, has large fonts by default, and has a red underline for it's accent color.  This is not my style at all.  And darn it, if I'm going to have to pay for my server and domain space, I am going to make this look just how I want it to look!  
+And I hate it! It's bright, has large fonts by default, and has a red underline for it's accent color.  This is not my style at all.  And darn it, if I'm going to have to pay for my server and domain space, I am going to make this look just how I want it to look!
 
 As far as content, I plan on:
 - Blogging about my viewpoints on technology, software, philosophy, etc.,
@@ -34,6 +34,6 @@ As far as content, I plan on:
 - Updates to Dire RPG.
 
 # How Long Until It's All Ready?
-No idea!  I'm not really good at time tables, nor have I really done this before.  I'm just happy that I have this up and running in the first place and it only took me a few hours!  
+No idea!  I'm not really good at time tables, nor have I really done this before.  I'm just happy that I have this up and running in the first place and it only took me a few hours!
 
 Until then, I'm going to hopefully update this as I go and post the updates as I go for my own keepsake.
