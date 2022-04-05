@@ -77,7 +77,8 @@ li {
     font-size: 0.8rem;
 
     a {
-      background-color: var(--lighterAccent);
+      background-color: var(--darker);
+      color: var(--ink);
       padding: .5rem 0.75rem;
       text-transform: uppercase;
       font-family: var(--primaryFont);
