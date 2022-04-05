@@ -30,18 +30,44 @@ $xxxlMin: 1960px;
   // --paper: var(--background);
   
   // Colors
-  --accent: #E63946;
-  --background: #FAF9F8;
-  --lightAccent: #A8DAE5;
-  --lighterAccent: #E6E8E4;
-  --dark: #457B9D;
-  --darker: #1D3557;
-  --slate: #2F3948;
 
-  --white: #fff;
-  --black: #152030;
+  // Dark --> Light
+  --night1: #2E3440;
+  --night2: #3B4252;
+  --night3: #434C5E;
+  --night4: #4C566A;
 
-  --ink: var(--slate);
+  //Dark --> Light
+  --snow1: #D8DEE9;
+  --snow2: #E5E9F0;
+  --snow3: #ECEFF4;
+
+  //Light --> Dark
+  //Green --> Blue
+  --frost1: #8FBCBB;
+  --frost2: #88C0D0;
+  --frost3: #81A1C1;
+  --frost4: #5E81AC;
+
+  // Red - Orange - Yellow - Green - Purple
+  --aurora1: #BF616A;
+  --aurora2: #D08770;
+  --aurora3: #EBCB8B; 
+  --aurora4: #A3BE8C;
+  --aurora5: #B48EAD;
+
+  --accent: var(--aurora1);
+  --background: var(--night1);
+  --lightAccent: var(--frost3);
+  --lighterAccent: var(--frost2);
+  --dark: var(--frost3);
+  --darker: var(--frost4);
+  --font: var(--snow1); 
+
+  --white: var(--snow1);
+  --black: var(--night1);
+
+  --ink: var(--font);
   --paper: var(--background);
 
   // Fonts

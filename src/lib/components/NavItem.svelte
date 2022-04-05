@@ -13,12 +13,13 @@
 </script>
 
 
-<li>
+<li class="nav-items">
   <a
     href={href}
     on:click={maybeCloseMenu}
     class:active={isCurrentPage}
     aria-current={isCurrentPage ? 'page' : false}
+    class="nav-items"
   >
     <slot />
   </a>

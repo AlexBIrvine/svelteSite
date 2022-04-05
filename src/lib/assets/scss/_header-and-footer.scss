@@ -32,8 +32,8 @@ footer {
 }
 
 header {
-  background: var(--lightAccent);
-  color: var(--darker);
+  background: var(--darker);
+  color: var(--ink);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,7 +48,7 @@ header {
     font-family: var(--accentFont);
     font-size: 2.1rem;
     line-height: 1;
-    color: inherit;
+    color: var(--ink);
     text-align: center;
     margin: 0;
     display: block;
@@ -64,7 +64,7 @@ header {
   .menu-button {
     margin: 0;
     background: transparent !important;
-    color: inherit;
+    color: var(--ink);
     padding: 0;
     border: 0;
     width: 2rem;
@@ -88,8 +88,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--darker);
-    color: var(--paper);
+    background: var(--ink);
+    color: var(--ink);
     transition: all .25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 
     &.open {
@@ -160,7 +160,7 @@ header {
 
 footer {
   background: var(--darker);
-  color: var(--paper);
+  color: var(--ink);
 
   position: fixed;
   bottom: 0px;
@@ -208,4 +208,8 @@ footer {
     opacity: 1;
     z-index: 11;
   }
+}
+
+.nav-items {
+  color: var(--ink);
 }
