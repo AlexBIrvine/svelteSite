@@ -11,7 +11,7 @@
 main {
   width: 100%;
   max-width: 80rem;
-  margin: 6rem auto;
+  margin: .5rem auto;
   padding: 0 1rem;
 }
 
@@ -68,8 +68,12 @@ li {
 }
 
 .post-footer { 
+
   ul {
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    
   }
 
   li {
@@ -85,10 +89,18 @@ li {
       font-weight: bold;
     }
 
-    + li {
-      margin-left: 0.5rem;
-    }
+    
   }
+  @media (min-width: vars.$smMin) {
+    ul {
+      flex-direction: row;
+    }
+    li {
+      margin-right: 0.5rem;
+    }
+
+  }
+
 }
 
 :where(h2, h3, h4, h5, h6) {
