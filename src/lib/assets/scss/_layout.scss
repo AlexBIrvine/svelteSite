@@ -71,9 +71,12 @@ li {
 
   ul {
     padding: 0;
+    margin-bottom:2rem;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1rem;
+  
   }
 
   li {
@@ -90,15 +93,6 @@ li {
     }
 
     
-  }
-  @media (min-width: vars.$smMin) {
-    ul {
-      flex-direction: row;
-    }
-    li {
-      margin-right: 0.5rem;
-    }
-
   }
 
 }
