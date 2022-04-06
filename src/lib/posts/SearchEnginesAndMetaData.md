@@ -1,6 +1,6 @@
 ---
 date: '2022-4-4'
-title: 'Search Engines & Metadata'
+title: 'Search Engines and Metadata'
 excerpt: Praising the greatest MtG search engine and how it can be applied to more topics.
 categories:
   - 'Programming'

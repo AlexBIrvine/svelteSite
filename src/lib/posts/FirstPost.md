@@ -3,7 +3,6 @@ date: '2022-4-3'
 title: 'The First Blog Post made by 6 Pak AL'
 excerpt: This is just a test post, feel free to ignore it.
 categories:
-  - 'meta'
   - 'fluff'
 # updated: "2022-03-29"
 # coverImage: "/images/jefferson-santos-fCEJGBzAkrU-unsplash.jpg"

@@ -1,7 +1,7 @@
 export const siteTitle = '6 Pak AL';
 export const siteDescription = "6 Pak's personal site.";
-export const siteURL = '6PakAL.com';
-export const siteLink = 'https://6PakAL.com';
+export const siteURL = 'www.6PakAL.com';
+export const siteLink = 'https://www.6PakAL.com';
 export const siteAuthor = '6 Pak AL';
 
 // Controls how many posts are shown per page on the main blog index pages
