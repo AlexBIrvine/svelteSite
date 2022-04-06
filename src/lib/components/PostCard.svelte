@@ -49,6 +49,9 @@
         text-decoration: none;
     }
 
+    h2 {
+        font-size: 2rem;
+    }
     .excerpt {
         padding-bottom: 10px;
     }
@@ -60,13 +63,16 @@
     .category-list ul {
         padding: 0;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 10px;
     }
 
     .category-list li {
         display: inline-block;
-        font-size: 0.8rem;
-        margin: 0 2rem;
+        font-size: 0.6rem;
+        /* margin: 0 2rem; */
+        /* width: 20%; */
     }
 
     .category-list li a {
@@ -90,8 +96,11 @@
     }
 
     @media screen and (min-width: 768px) {
+        .card {
+            width: 45%;
+        }
+
         .category-list ul {
-            flex-direction: row;
             padding-top: 5px;
         }
         .category-list li {

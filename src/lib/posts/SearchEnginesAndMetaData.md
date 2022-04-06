@@ -4,7 +4,7 @@ title: 'Search Engines & Metadata'
 excerpt: Praising the greatest MtG search engine and how it can be applied to more topics.
 categories:
   - 'Programming'
-  - 'Meta Data'
+  - 'Metadata'
   - 'Magic The Gathering'
 # updated: 
 ---
