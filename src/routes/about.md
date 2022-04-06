@@ -22,6 +22,6 @@ The codebase started as a [template project](https://github.com/josh-collinswort
 
 # Contact Me
 
-I'm still debating if I want to put my email here or provide links to social media.  I'm a person that likes to compartmentalize different parts of my area.  As the old Futurama joke goes:
+I'm still debating if I want to put my email here or provide links to social media.  I'm a person that likes to compartmentalize different parts of my life.  As the old Futurama joke goes:
 
 ![Joke about separating work for home](/images/FuturamaJoke.png)
