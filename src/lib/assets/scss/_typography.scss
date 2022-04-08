@@ -82,3 +82,30 @@ ul {
   text-align: center;
   font-size: 3rem;
 }
+
+table {
+  border-collapse: collapse;
+  border: 2px solid var(--lightAccent);
+  padding: 5px;
+  margin: 0 auto;
+}
+
+th {
+  background-color: var(--darker);
+  text-align: center;
+}
+
+th, td{
+  border: 2px solid var(--lightAccent);
+  padding: 10px;
+}
+
+tr:nth-child(even){
+  background-color: var(--lightAccent);
+  border: 2px solid black;
+  color:var(--paper);
+}
+
+tr:nth-child(even) td:nth-child(odd){
+  border-right: 2px solid var(--darker);
+}
