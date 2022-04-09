@@ -5,6 +5,8 @@
 
 # Learning Journal
 
-This section will soon be updated with notes taken for the various subjects I am studying. I'm a fan of journaling and like to apply it to the learning process so I can see my comprehension of various subjects in real time. I find that the best learning sources online for programming is not only the source code, but the thoughts behind the source code. This allows me to have a written record of why I'm committing the code that I do, which can help me spot incorrect thinking when reviewing it in the future.
+This page is temporarily under construction while I work out how I want the entries to be organized.  I am toying around in my head with different designs, all which will have to have their own api made for them.
 
-Soon I'll add a sidebar to this page for a table of contents based organization.
+In the mean time, the journal entries are being hosted in the blog section with the category tag `Learning Journal`.  You can [click this link](https://www.6pakal.com/blog/category/Learning%20Journal) if you wish to be taken to the sorted view only containing those entries.  
+
+Thank you for your patience as I learn how to make a proper full stack web app.  

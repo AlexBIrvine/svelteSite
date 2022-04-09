@@ -33,7 +33,7 @@
 
 <style>
 		.card {
-				margin: 25px 0;
+				margin: 0 0 25px 0;
 				background-color: #121212;
 				color: #D8DEE9;
 				border-radius: 20px 50px;

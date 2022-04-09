@@ -1,11 +1,12 @@
 <script>
 	import PostCard from './PostCard.svelte'
 
+	export let ref
 	export let posts = []
 </script>
 
 
-<ul class="posts-list">
+<ul class="posts-list" {ref}>
 	{#each posts as post}
 		<PostCard {post} class="post" />
 	{/each}

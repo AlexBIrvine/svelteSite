@@ -3,8 +3,8 @@ date: '2022-4-6'
 title: 'Making Virgules Vulgar'
 excerpt: 'A clever use of the / character that I want to see more of.'
 categories:
-	- 'Writing'
-	- 'Simplification'
+  - 'Writing'
+  - 'Simplification'
 # updated:
 ---
 
