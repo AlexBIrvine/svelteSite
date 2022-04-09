@@ -8,17 +8,16 @@
 @use './code';
 @use './prism';
 
-// @import "node_modules/nord/src/nord.scss";
 main:focus {
-  outline: none;
+	outline: none;
 }
 
 body {
-  margin: 0;
-  min-height: 100vh;
-  color: var(--ink);
-  font-family: var(--primaryFont);
-  background: var(--paper);
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
+	margin: 0;
+	min-height: 100vh;
+	color: var(--ink);
+	font-family: var(--primaryFont);
+	background: var(--paper);
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
 }
