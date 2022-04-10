@@ -1,13 +1,16 @@
 <script>
 	export let sortedUniqueCategories
 	export let ref
+
+
+	let categories = sortedUniqueCategories.sort((a, b) => a.count < b.count)   //WHY WON"T YOU WORK!?!?!?!?
 </script>
 
 
 
 <aside id="sidebar" {ref}>
 		<ul>
-			{#each sortedUniqueCategories as category}
+			{#each categories as category}
 			<li class="category">
 				<a href="/blog/category/{category.title}"> 
 					<div>{ category.title } </div> 
