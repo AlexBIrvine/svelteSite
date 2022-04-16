@@ -18,8 +18,8 @@ export const navItems = [
 		route: '/projects'
 	},
 	{
-		title: 'Learning Journal',
-		route: '/learning-journal'
+		title: 'Dire RPG',
+		route: '/dire-rpg'
 	},
 	{
 		title: 'About',
